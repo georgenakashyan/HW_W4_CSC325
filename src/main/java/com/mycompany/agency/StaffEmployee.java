@@ -1,7 +1,7 @@
 package com.mycompany.agency;
 
 
-    // TODO 1: Make StaffEmployee a child of StaffEmploee
+    // TODO 1: Make StaffEmployee a child of StaffMember
 
 public class StaffEmployee 
 {
