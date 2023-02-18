@@ -3,7 +3,7 @@ package com.mycompany.agency;
 
 
 
-public class Staff
+public class Staff 
 {
     private StaffMember[] staffList;
 
@@ -13,9 +13,9 @@ public class Staff
     public Staff()
     {
         staffList = new StaffMember[6];
-
+        
         // TODO 1: Add 6 emploees to the staffList
-
+        StaffMember e1 = new Executive("Juilli","123 Wrong Ave","00000000");
         ((Executive)staffList[0]).awardBonus(500.00);
 
         ((TempEmploee)staffList[3]).addHours(40);
