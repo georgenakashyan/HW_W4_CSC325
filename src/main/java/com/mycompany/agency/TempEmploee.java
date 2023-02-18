@@ -34,7 +34,7 @@ public class TempEmploee extends StaffEmployee
     //-----------------------------------------------------------------
     public double pay()
     {
-        return hoursWorked * super.payRate;
+        return hoursWorked * this.payRate;
     }
 
     //-----------------------------------------------------------------
