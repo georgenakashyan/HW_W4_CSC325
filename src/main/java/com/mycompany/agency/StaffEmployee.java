@@ -30,7 +30,7 @@ public class StaffEmployee extends StaffMember
     {
         return "Name: " + this.name + "\nAddress: " + this.address + "\nPhone: " 
                 + this.phone + "\nSocial Security Number: " + 
-                this.socialSecurityNumber + "\nPaid: " + this.payRate;
+                this.socialSecurityNumber;
     }
 
     //-----------------------------------------------------------------
